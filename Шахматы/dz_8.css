@@ -1,0 +1,145 @@
+body{
+	margin: 0 auto;
+	/*overflow:hidden;*/
+}
+.wrapp_big{
+	width: 1247px;
+	height: 800px;
+	background:silver;
+	margin: 0 auto;
+}
+.wrapper {
+	color:red;
+	width: 61.9%;
+	height: 96.5%;
+	background:#00e6ff;
+	margin: 1% auto;
+	float:left;
+}
+.field_left,.field_right{
+	height: 89.1%;
+	width: 14%;
+	padding:2.4% 1.5%;
+	/* background:#00e6ff; */
+	background:#afecec;
+	margin: 1% 1%;
+	float:left;
+}
+.footer{
+	/* clear:both; */
+	height:100px;
+	width: 1247px;
+	/* background:#00e6ff; */
+	background:#afecec;
+	margin: 0 auto;
+	text-align:center;
+	display: table;
+}
+
+.wr_up,.wr_down{
+	padding-left:4%;
+	padding-right:4%;
+	height:4%;
+	background:#e3d2d5;
+	/* border:1px solid black; */
+}
+.wr_line{
+	height:11.5%;
+	background:#e3d2d5;
+	padding-left: 0.5%;
+}
+.wr_down{
+	clear:both;
+}
+.bukva{
+	width: 12.5%;
+	height: 100%;
+	float:left;
+	text-align:center;
+	display: table;
+}
+.bukva div,.cifra div{
+	display: table-cell;
+	vertical-align: middle;
+	/* width:100%; */
+}	
+.cifra {
+	width: 4%;
+	height: 100%;
+	float:left; 
+	text-align:center;
+	display: table; 
+}
+.kletka_2 {
+	width: 11.5%;
+	height: 100%;
+	background:gray;
+	float:left;
+	text-align:center;
+	display: table; 
+	position:relative;	
+	
+}
+.kletka_1 {
+	width: 11.5%;
+	height: 100%;
+	background:#cea3a3;
+	float:left;
+	text-align:center;
+	display: table;
+	position:relative;	
+}
+/*.kletka_1,.kletka_2{
+	border:1px solid red;
+	margin:-1px;
+}*/
+.figure{
+	width:95%;
+	height:98%;
+	vertical-align: middle;
+	cursor: pointer;
+	/* display:inline-block; */
+	margin-top:1%;
+}
+.kletka_2:before,.kletka_1:before {
+  content: '';
+  /* display: inline-block; */
+  
+  vertical-align: middle;
+}
+/* был использован в более ранней версии, но препятствовал доступу к фигуре для перемещения последней
+#bordclick:after{
+	position:absolute;
+	height: 88%;
+	width: 88%;
+	
+	z-index:1;
+	left:-2.2px;
+	top:-2.2px;
+	border:7px solid #00ffee;
+	content: '';
+} */
+#bordclick{
+	width:9.7%;
+	height:99.2%;
+	border:7px solid #00ffee;
+}
+#bordclick .figure{
+	width:100%;
+	height:100%;
+}
+.footer_h1{
+	display: table-cell;
+	vertical-align: middle;
+	font-size:60pt;
+}
+.wr_figure{
+	margin:1px;
+	width:48%;
+	height:12.5%;
+	/* background-color:yellow; */
+	text-align:center;
+	display: table;
+	position: relative;
+	float:left;
+}
